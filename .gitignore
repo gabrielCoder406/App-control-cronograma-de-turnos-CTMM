@@ -1,0 +1,11 @@
+# Compilación
+build/
+*.idsig
+
+# Claves de firma: NUNCA subirlas (con ellas cualquiera podría firmar una "actualización" de la app)
+*.jks
+*.keystore
+
+# Python
+__pycache__/
+*.pyc
